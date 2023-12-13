@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/ciudadanos.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="icon" href="logo.ico">
 </head>
 <body>
 
