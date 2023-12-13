@@ -20,7 +20,7 @@ $lugar = $_POST["lugar"];
 try {
     $conn = new mysqli("localhost", "root", "", "clinica");
     $conn->set_charset("utf8");
-    $sql = "INSERT INTO `denuncia`(`id_denuncia`, `description_denuncia`, `id_cuidadano`, `id_provincia`, `id_categoria`, `fecha_denuncia`, `estatus`, `lugar_denuncia`) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
+    $sql = "INSERT INTO `denuncia`(`id_denuncia`, `description_denuncia`, `id_ciudadano`, `id_provincia`, `id_categoria`, `fecha_denuncia`, `estatus`, `lugar_denuncia`) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
     $stmt = $conn->prepare($sql);
     $stmt->execute([$id_denuncia, $descripcion, $id_ciudadano, $id_provincia, $id_categoria, $fecha, $estatus, $lugar]);
 } catch (Exception $e) {

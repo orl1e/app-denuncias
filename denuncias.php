@@ -60,7 +60,7 @@
                         <p>Caracteres restantes: <span id="caracteresRestantes">150</span></p>
                     </div>
                     <div class="col-auto">
-                        <select class="form-select" name="idCiudadano" id="" required>
+                        <select class="form-select" name="idCiudadano" required>
                             <option value="0">ID Ciudadano</option>
                             <?php
                             $conn = new mysqli("localhost", "root", "", "clinica");
