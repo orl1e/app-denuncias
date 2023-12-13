@@ -1,0 +1,73 @@
+:root{
+    --azure-radiance-50: #edfbff;
+    --azure-radiance-100: #d6f3ff;
+    --azure-radiance-200: #b5edff;
+    --azure-radiance-300: #83e4ff;
+    --azure-radiance-400: #48d2ff;
+    --azure-radiance-500: #1eb5ff;
+    --azure-radiance-600: #0698ff;
+    --azure-radiance-700: #0084ff;
+    --azure-radiance-800: #0864c5;
+    --azure-radiance-900: #0d569b;
+    --azure-radiance-950: #0e345d;
+}
+
+.ciudadanos {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.form{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px salid var(--azure-radiance-600);
+
+}
+
+form input[type=text],input[type=password] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid var(--azure-radiance-700);
+    border-radius: 14px;
+}
+
+input[type=submit] {
+    width: 100%;
+    background:linear-gradient(to right,var(--azure-radiance-50),var(--azure-radiance-100));
+    border: 2px solid var(--azure-radiance-800);
+    color: var(--azure-radiance-950);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: all 400ms ease-out;
+}
+
+input[type=submit]:hover {
+    background:linear-gradient(to right,var(--azure-radiance-100),var(--azure-radiance-300));
+}
+
+input[type=submit]:active {
+    background:linear-gradient(to right,var(--azure-radiance-300),var(--azure-radiance-800));
+}
+
+.ciudadano {
+    margin-top: 30px;
+}
+
+.ciudadano table a{
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--azure-radiance-900);
+    transition: all 300ms ease-in-out;
+}
+
+.ciudadano table a:first-child{
+    margin-right: 8px;
+}
+
+.ciudadano table a:hover{
+    color: var(--azure-radiance-950);
+}
