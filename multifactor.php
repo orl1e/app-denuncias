@@ -25,12 +25,12 @@ if(!isset($_SESSION['usuario'])){
 
     <div class="container-sm m-5 form">
     <h1><b>Verificación SMS</b></h1>
-    <small class="text-body-secondary">Ingresa el código SMS para autenticarte..</small>
+    <small class="text-body-secondary">Ingresa el código SMS para autenticarte...</small>
 
     <div class="mt-4">
         <form action="multifactorValidation.php" method="post">
             <label for="codigo"><b>Código de verificación.</b></label>
-            <input type="number" name="codigo2FA" id="codigo">
+            <input type="number" name="codigo2FA" id="codigo" autofocus>
             <input type="submit" value="Verificar" name="submit">
         </form>
     </div>

@@ -34,7 +34,7 @@ if (isset($_SESSION['usuario']) && isset($_SESSION['codigoValido'])) {
     <div class="mt-4">
         <form action="loginValidation.php" method="post">
             <label for="nombre"><b>Nombre usuario</b></label>
-            <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
+            <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" autofocus>
             <label for="nombre"><b>Apellido usuario</b></label>
             <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido">
             <label for="nombre"><b>Contraseña</label>
