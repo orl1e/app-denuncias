@@ -31,7 +31,7 @@
 				$_SESSION["usuario"] =$_POST["nombre"];
 
 				// Configurar el cliente Twilio (o el servicio SMS que estés utilizando)
-				$twilio = new Twilio\Rest\Client('ACa127815fc0cad65a95743dbf557bbb92', 'd90daecbb2d8f471984c627909c9eae3');
+				$twilio = new Twilio\Rest\Client('ACa127815fc0cad65a95743dbf557bbb92', '8f1a2ab8fefaa555307a8645ff3d268d');
 
 				// Generar un código único
 				$codigo2FA = mt_rand(100000, 999999);
