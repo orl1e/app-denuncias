@@ -79,7 +79,7 @@
   </div>
 </div>
 
-<footer>Copyright © - Orlie Macías, Abraham Guttierez, Kevin Luo </footer>
+<footer>Copyright © - Orlie Macías</footer>
 
 
 <!-- Copos nieves -->
