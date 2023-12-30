@@ -148,6 +148,6 @@
         defer
         src="https://app.embed.im/snow.js"
     ></script>
-    <footer>Copyright © - Orlie Macías, Abraham Guttierez, Kevin Luo </footer>
+    <footer>Copyright © - Orlie Macías</footer>
 </body>
 </html>
