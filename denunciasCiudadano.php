@@ -144,10 +144,10 @@
 </script>
 
 <!-- Copos nieves -->
-<script
+<!-- <script
         defer
         src="https://app.embed.im/snow.js"
-    ></script>
+    ></script> -->
     <footer>Copyright © - Orlie Macías</footer>
 </body>
 </html>
