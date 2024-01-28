@@ -65,7 +65,7 @@
 <div class="container-sm content">
   <div class="text">
     <?php
-          echo "<h1><strong>Bienvenido ".ucwords($_SESSION["usuario"]).". Felices fiestas🎄</strong></h1>";
+          echo "<h1><strong>Bienvenido ".ucwords($_SESSION["usuario"]).". Felices verano☀️</strong></h1>";
       ?>
     <div class="textAnimation">
       <h5>¿Qué harémos hoy?</h5>
@@ -83,10 +83,10 @@
 
 
 <!-- Copos nieves -->
-<script
+<!-- <script
         defer
         src="https://app.embed.im/snow.js"
-    ></script>
+    ></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <!-- Script reloj -->
     <script>
