@@ -12,13 +12,12 @@
 		try{
 			$base=new PDO('mysql:host=localhost; dbname=clinica', 'root', '');
 			$base->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);		
-			$sql="Select * from usuarios where nombre_usuario=? and apellido_usuario=? and password = ?";	
+			$sql="Select * from usuarios where nombre_usuario=? and password = ?";	
 		
 			$resultado=$base->prepare($sql);
 			$nombre=$_POST["nombre"];
-			$apellido=$_POST["apellido"];
 			$password=$_POST["password"];
-			$resultado->execute([$nombre,$apellido,$password]);
+			$resultado->execute([$nombre,$password]);
 			$numero_registro=$resultado->rowCount();
 
 
